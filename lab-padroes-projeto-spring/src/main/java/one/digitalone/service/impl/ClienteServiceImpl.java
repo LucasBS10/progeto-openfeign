@@ -19,7 +19,7 @@ public class ClienteServiceImpl implements ClienteService {
     private ClienteRepository clienteRepository;
     @Autowired
     private EnderecoRepository enderecoRepository;
-    //@Autowired
+    @Autowired
     private ViaCepService viaCepService;
 
     @Override
